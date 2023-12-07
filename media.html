@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+  Student Name: Nabin Gaire
+  Student Number: C0920487
+  file Name: media.html
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Francois+One&family=Playpen+Sans&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/logo-transparent.png" alt="luggpaq logo"
+          /></a>
+        </div>
+      </header>
+
+      <div class="hamburger-menu-wrapper">
+        <button class="hamburger-menu" onclick="toggleMenu()">&#9776;</button>
+      </div>
+      
+      <nav class="navigation">
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="specials.html">Specials</a></li>
+          <li><a href="training.html">Training</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <video controls autoplay loop poster="images/thumbnail.jpeg">
+        <source src="media/video.mp4" type="video/mp4" />
+        <p>Your browser does not support the video element.</p>
+      </video>
+      <main>
+        <h2>Audio Experience</h2>
+        <div class="audio-single-wrapper">
+
+        <div class="audio-single">
+          <audio controls>
+            <source src="media/sound1.mp3" type="audio/mp3" />
+            Your browser does not support the audio tag.
+          </audio>
+          <p>
+            LListen to the secure click of our locks, providing peace of mind as
+            you embark on your journey, the sound of trust and reliability.
+          </p>
+        </div>
+        <div class="audio-single">
+          <audio controls>
+            <source src="media/sound2.mp3" type="audio/mp3" />
+            Your browser does not support the audio tag.
+          </audio>
+          <p>
+            Feel the rhythmic hum of innovation as our luggage seamlessly glides
+            across airport floors, a symphony of functionality and design in
+            every wheel turn
+          </p>
+        </div>
+        <div class="audio-single">
+          <audio controls>
+            <source src="media/sound3.mp3" type="audio/mp3" />
+            Your browser does not support the audio tag.
+          </audio>
+          <p>
+            mmerse yourself in the gentle whispers of our durable materials, a
+            testament to the quality that echoes with every touch and caress.
+          </p>
+        </div>
+      </div>
+
+      </main>
+      <footer>
+        <p>
+          &copy; Copyright 2023. All Rights Reserved. <br />
+          <a href="mailto:info@luggpaq.com">Request Information</a> <br />
+          Nabin Gaire &nbsp; &nbsp; C0920487
+        </p>
+      </footer>
+
+      <script src="./scripts/script.js"></script>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+/* 
+Author: Nabin Gaire
+File Name: about.css
+Date: 2023-12-07
+*/
+
+.about-content {
+  text-align: center;
+  margin: 20px;
+  background: linear-gradient(#a3a4a4, #fff);
+  padding: 20px;
+  border-radius: 80px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .about-content  {
+    margin:20px 100px 20px 100px;
+
+  }
+}
+
+.story-content {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .story-content  {
+    margin:0px 100px 20px 100px;
+
+  }
+}
+
+.choose-us {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.choose-reason-wrapper {
+  display: block;
+  list-style-type: none;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .choose-reason-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.choose-reason-wrapper .choose-reason {
+  background: linear-gradient(#a3a4a4, #fff);
+  margin: 20px;
+  border-radius: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  .choose-reason-wrapper .choose-reason {
+    width: 44%;
+  }
+}
+
+.choose-reason-wrapper h3 {
+  text-align: center;
+  color: #23379c;
+  padding: 20px 0 20px 0 ;
+  
+}
+.choose-reason-wrapper p {
+  padding: 20px;
+}
+
+.gurantee-content {
+  text-align: center;
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 80px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .gurantee-content  {
+    margin:0px 100px 20px 100px;
+
+  }
+}

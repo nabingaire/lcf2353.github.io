@@ -1,0 +1,136 @@
+
+
+
+<!DOCTYPE html>
+<!--
+  Student Name: Nabin Gaire
+  Student Number: C0920487
+  file Name: contact.html
+-->   
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Francois+One&family=Playpen+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="images/logo-transparent.png" alt="luggpaq logo"></a>
+    </div>
+  </header>
+
+  <div class="hamburger-menu-wrapper">
+    <button class="hamburger-menu" onclick="toggleMenu()">&#9776;</button>
+  </div>
+  
+  <nav class="navigation">
+    <ul id="nav-menu" class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="team.html">Our Team</a></li>
+      <li><a href="specials.html">Specials</a></li>
+      <li><a href="training.html">Training</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="faqs.html">FAQs</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container"> 
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Contact Us</legend>
+          <ol>
+            <li>Fill out the form below to get in touch with us.</li>
+            <li>All fields marked with * are required.</li>
+            <li>Please provide accurate information to help us assist you better.</li>
+          </ol>
+            <div class="form-element">
+              <label for="name">Your Name:*</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-element">
+              <label for="email">Your Email:*</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-element">
+              <label for="subject">Subject:*</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+
+            <div class="form-element">
+              <label for="message">Your Message:*</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <div class="form-element">
+              <label for="category">Category:*</label>
+              <select id="category" name="category">
+                <option value="general">General Inquiry</option>
+                <option value="support">Customer Support</option>
+                <option value="partnership">Partnership Opportunities</option>
+              </select>
+            </div>
+            
+            <div class="form-element">
+              <div>
+                <p>Preferred Contact Method:*</p>
+                <div class="radio-options-wrapper">
+                  <div class="radio-option">
+                    <label for="contact-email" class="radio-label">Email</label>
+                    <input type="radio" id="contact-email" name="contact-method" value="email" checked>
+                  </div>
+                  <div class="radio-option">
+                    <label for="contact-phone" class="radio-label">Phone</label>
+                    <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-element">
+              <p>Subscribe to Newsletter:</p>
+
+              <div class="subscribe-checkbox-wrapper">
+                <input type="checkbox"  id="subscribe" name="subscribe" value="yes">
+                <label for="subscribe" class="radio-label">Yes, subscribe me to the newsletter</label>
+              </div>
+            </div>
+
+            <div class="form-element submit-button">
+              <button type="submit">Submit Request</button>
+              <button type="reset">Reset Form</button>
+            </div>
+      </fieldset>
+    </form>
+  </div>
+    <div id="map-container">
+      <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2844.086804684456!2d-82.3851271843688!3d42.98694557913718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882f7b67bc60a6a3%3A0x9b0cf5563a9c25d!2sLambton%20College!5e0!3m2!1sen!2sca!4v1665385822106!5m2!1sen!2sca"></iframe>
+    </div>
+  </main>
+  <footer>
+    <p>
+      &copy; Copyright 2023. All Rights Reserved. <br>
+      <a href="mailto:info@luggpaq.com">Request Information</a> <br>
+      Nabin Gaire &nbsp; &nbsp; C0920487
+    </p>
+   
+  </footer>
+  </div>
+</div>
+
+<script src="./scripts/script.js"></script>
+
+
+</body>
+</html>

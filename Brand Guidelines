@@ -1,0 +1,26 @@
+Brand Guidelines
+
+#23379c logo color
+#dadada
+#807e87
+#a3a4a4
+#6e80cc
+
+
+
+Fonts:
+
+Playpen Sans
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Francois+One&family=Playpen+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+
+font-family: 'DM Serif Display', serif;
+font-family: 'Francois One', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Roboto Slab', serif;
+
+Roboto regular 400
+

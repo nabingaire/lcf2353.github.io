@@ -1,0 +1,41 @@
+/* 
+Author: Nabin Gaire
+File Name: media.css
+Date: 2023-12-07
+*/
+
+video {
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.audio-single {
+  margin: 0 2%;
+  box-sizing: border-box;
+}
+
+p {
+  clear: both;
+  margin-top: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.audio-single-wrapper {
+  display: grid;
+  grid-template-columns: 1fr; 
+
+  margin: 20px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .audio-single-wrapper {
+    grid-template-columns: auto auto auto;
+
+  }
+}

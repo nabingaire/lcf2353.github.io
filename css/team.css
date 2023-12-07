@@ -1,0 +1,77 @@
+/* 
+Author: Nabin Gaire
+File Name: team.css
+Date: 2023-12-07
+*/
+
+/*Team Page*/
+.main-team {
+  padding: 60px 0;
+  background: #fff;
+  text-align: center;
+}
+
+/*Team Title*/
+.main-team .section-title p {
+  font-family: "Playpen Sans", cursive;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-team .section-title p {
+    margin: 0px 45px;
+  }
+}
+
+.our-team-wrapper {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .our-team-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+
+.our-team-wrapper section {
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  background: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .our-team-wrapper section {
+    width: 30%;
+    margin: 0px 60px;
+  }
+}
+
+/*Team Image*/
+.our-team-wrapper img {
+  width: 100%;
+}
+
+/*figcaption*/
+.our-team-wrapper figcaption {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+  font-family: "Playpen Sans", cursive;
+}
+
+/*Team Aside / Our Story*/
+.main-team aside {
+  padding: 40px;
+  margin: 0px 45px 0px 45px;
+  text-align: center;
+}
+
+.main-team aside p {
+  font-family: "Playpen Sans", cursive;
+  line-height: 2;
+}
